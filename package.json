@@ -9,9 +9,12 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@apicase/adapter-fetch": "^0.15.1",
+    "@apicase/services": "^0.8.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
+    "vuetify": "^1.5.13",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

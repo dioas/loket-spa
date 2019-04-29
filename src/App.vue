@@ -1,12 +1,19 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div>
+    <div id="app">
+      <router-view/>
     </div>
-    <router-view/>
+    <SnackbarNotf/>
   </div>
 </template>
+<script>
+import SnackbarNotf from '@/components/SnackbarNotification'
+export default {
+  components: {
+    SnackbarNotf
+  }
+}
+</script>
 
 <style lang="less">
 #app {
@@ -25,5 +32,9 @@
       color: #42b983;
     }
   }
+}
+.v-menu .v-menu__content.menuable__content__active {
+  top:0 !important;
+  left: 0 !important;
 }
 </style>

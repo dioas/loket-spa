@@ -2,6 +2,29 @@
 # yarn lockfile v1
 
 
+"@apicase/adapter-fetch@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@apicase/adapter-fetch/-/adapter-fetch-0.15.1.tgz#69142f348af9bceb30b94d75ba7f318afd3ee3b6"
+  dependencies:
+    cross-fetch "^2.1.0"
+    node-fetch "^2.1.1"
+    path-to-regexp "^2.1.0"
+
+"@apicase/core@^0.17.0":
+  version "0.17.2"
+  resolved "https://registry.yarnpkg.com/@apicase/core/-/core-0.17.2.tgz#49437b76d34fe53fc25707f1c69042769ffa2951"
+  dependencies:
+    delightful-bus "^0.7.3"
+    nanoutils "^0.0.x"
+
+"@apicase/services@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@apicase/services/-/services-0.8.2.tgz#a5e202e02b56577cab62b78d49a263037014dde9"
+  dependencies:
+    "@apicase/core" "^0.17.0"
+    delightful-bus "^0.7.3"
+    nanoutils "^0.0.x"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.0.0-beta.35":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -2300,6 +2323,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+cross-fetch@^2.1.0:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-2.2.3.tgz#e8a0b3c54598136e037f8650f8e823ccdfac198e"
+  dependencies:
+    node-fetch "2.1.2"
+    whatwg-fetch "2.0.4"
+
 cross-spawn@^5.0.1, cross-spawn@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -2648,6 +2678,10 @@ delayed-stream@~1.0.0:
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
+
+delightful-bus@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/delightful-bus/-/delightful-bus-0.7.3.tgz#e8b98f590ba947205fc139120ab482731a2a7485"
 
 depd@~1.1.2:
   version "1.1.2"
@@ -5641,6 +5675,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nanoutils@^0.0.x:
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/nanoutils/-/nanoutils-0.0.42.tgz#23aa03130632800c5b7dc04fde4b34b145b0c3d7"
+
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
@@ -5677,6 +5715,14 @@ node-cache@^4.1.1:
   dependencies:
     clone "2.x"
     lodash "4.x"
+
+node-fetch@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
+
+node-fetch@^2.1.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.4.1.tgz#b2e38f1117b8acbedbe0524f041fb3177188255d"
 
 node-forge@0.7.5:
   version "0.7.5"
@@ -6171,6 +6217,10 @@ path-parse@^1.0.5, path-parse@^1.0.6:
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
+
+path-to-regexp@^2.1.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -8249,6 +8299,10 @@ vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
 
+vuetify@^1.5.13:
+  version "1.5.13"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.13.tgz#b2e406ebdc59723c5ecbd2d0595d3d2ae0cac812"
+
 vuex@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.0.tgz#634b81515cf0cfe976bd1ffe9601755e51f843b9"
@@ -8430,6 +8484,10 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   resolved "https://registry.yarnpkg.com/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
   dependencies:
     iconv-lite "0.4.24"
+
+whatwg-fetch@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
