@@ -8,7 +8,7 @@
           <v-flex xs12 sm3 d-flex>
             <v-select
               :items="items"
-              label="Films"
+              label="people"
               solo
               v-model="pickModel"
               @change="changePlanet(pickModel)"
@@ -37,7 +37,7 @@ export default {
     changePlanet (model) {
       if (model === 'people') {
         this.$router.push('/people')
-      } else if (model === 'film') {
+      } else if (model === 'films') {
         this.$router.push('/film')
       } else {
         this.$router.push('/planet')
