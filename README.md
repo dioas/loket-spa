@@ -1,4 +1,22 @@
 # start_wars
+![alt text](https://www.loket.com/images/logo-loket-blue.png "loket")
+
+## Must Know
+```
+There are 2 project in here in different Router :
+```
+
+## 1 . SPA for index Router
+```
+In first time you open project, you will direct to first project is SPA. Feel free to test it.
+this router is 'localhost:8080/people'
+```
+
+## 2. Form Validation
+```
+ In other Router is '/form'. You can change your Route to 'localhost:8080/form' for change to new project.
+ Feel free to test it.
+```
 
 ## Project setup
 ```
@@ -14,20 +32,9 @@ yarn run serve
 ```
 yarn run build
 ```
-
-### Run your tests
+### This project use Vuetify
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
+I use vuetify for design and some component, if style not showing try to 'yard add vuetify'. Vuetify is really nice framework for vue.
 ```
 
 ### Customize configuration
